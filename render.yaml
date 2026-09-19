@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: sahaya-learning
+    runtime: static
+    buildCommand: node scripts/build.mjs
+    staticPublishPath: ./public
+    autoDeployTrigger: commit
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache

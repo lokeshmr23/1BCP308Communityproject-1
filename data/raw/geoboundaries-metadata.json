@@ -1,0 +1,11 @@
+{
+  "boundaryID": "IND-ADM2-76128533",
+  "boundaryYearRepresented": "2021",
+  "boundarySource": "Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+  "boundaryLicense": "Open Data Commons Open Database License 1.0",
+  "source": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2_simplified.geojson",
+  "api": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM2/",
+  "retrieved": "2026-09-20",
+  "selection": "shapeName == Dakshina Kannada",
+  "transformation": "One-feature extraction of published simplified geometry; no boundary edits"
+}

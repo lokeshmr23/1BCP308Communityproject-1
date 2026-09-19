@@ -1,0 +1,15 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {selectCards,grade,summarize,predictKnn,toCsv} from '../public/engine.js';
+const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
+const cards=read('public/data/lessons.json'),examples=read('public/data/digits-examples.json'),model=read('public/models/knn.json');
+test('30 unique bilingual content records with valid answers',()=>{assert.equal(cards.length,30);assert.equal(new Set(cards.map(x=>x.id)).size,30);for(const c of cards){assert.ok(c.prompt.en&&c.prompt.kn);assert.ok(c.choices.some(x=>x.id===c.answer));assert.equal(new Set(c.choices.map(x=>x.id)).size,c.choices.length);}});
+test('selectCard length and wrap expose the entire digit pack',()=>{assert.equal(selectCards(cards,'numbers',3).length,3);assert.equal(selectCards(cards,'digits',5,5)[0].id,'digit-5');assert.equal(selectCards(cards,'digits',5,10)[0].id,'digit-0');assert.deepEqual(selectCards(cards,'absent'),[]);});
+test('every answer grades against its content key',()=>{for(const c of cards)for(const choice of c.choices)assert.equal(grade(c,choice.id),choice.id===c.answer);});
+test('empty progress is zero',()=>{assert.equal(summarize([]).completed,0);assert.equal(summarize([]).sessions,0);});
+test('progress separates first tries and excludes non-answer records',()=>{const s=summarize([{type:'answer',session:'a',firstCorrect:true,category:'numbers'},{type:'answer',session:'a',firstCorrect:false,category:'life'},{type:'view'}]);assert.equal(s.completed,2);assert.equal(s.firstCorrect,1);assert.equal(s.sessions,1);});
+test('CSV header, escaping and no identity column',()=>{const csv=toCsv([{type:'answer',date:'x',session:'s',category:'life',card:'a"b',attempts:2,firstCorrect:false}]);assert.match(csv,/date,session,category,card,attempts,firstCorrect/);assert.match(csv,/"a""b"/);assert.ok(!csv.includes('name'));});
+test('browser KNN matches saved scikit-learn predictions for 20 held-out examples',()=>{for(const x of examples)assert.equal(predictKnn(x.pixels,model),x.prediction);});
+test('invalid model input rejected',()=>{assert.throws(()=>predictKnn([1],model));assert.throws(()=>predictKnn(Array(64).fill(17),model));});
+test('map is a single named source feature',()=>{const g=read('public/data/dakshina-kannada.geojson');assert.equal(g.features.length,1);assert.equal(g.features[0].properties.shapeName,'Dakshina Kannada');});

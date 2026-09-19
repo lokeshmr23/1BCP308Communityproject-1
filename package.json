@@ -1,0 +1,11 @@
+{
+  "name": "sahaya-community-learning",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "English-Kannada accessible learning prototype for Dakshina Kannada, 1BCP308",
+  "scripts": {"start": "node server.mjs", "build": "node scripts/build.mjs", "test": "node --test tests/engine.test.mjs", "test:browser": "node tests/browser.mjs"},
+  "engines": {"node": ">=20"},
+  "license": "MIT",
+  "devDependencies": {"@playwright/test": "1.56.1", "@axe-core/playwright": "4.10.2"}
+}
