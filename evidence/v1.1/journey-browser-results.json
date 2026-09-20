@@ -1,0 +1,108 @@
+{
+  "release": "1.1.0",
+  "browser": "Chromium",
+  "checks": 25,
+  "results": [
+    {
+      "name": "home has six labelled journey buttons and two USE ME entry points",
+      "passed": true
+    },
+    {
+      "name": "USE ME opens the guide without starting or logging practice",
+      "passed": true
+    },
+    {
+      "name": "first guide page offers Begin practice and starts numbers",
+      "passed": true
+    },
+    {
+      "name": "help preserves the current question and enabled Next state",
+      "passed": true
+    },
+    {
+      "name": "keyboard navigation moves between guide steps and focuses the new heading",
+      "passed": true
+    },
+    {
+      "name": "all six guide panels work and have just one active step",
+      "passed": true
+    },
+    {
+      "name": "settings open and close from the guide without losing the step",
+      "passed": true
+    },
+    {
+      "name": "Choose takes the learner to activities and keyboard focus follows",
+      "passed": true
+    },
+    {
+      "name": "home Discover, Learn and Choose all reach their intended content",
+      "passed": true
+    },
+    {
+      "name": "home Practise resumes active practice instead of resetting it",
+      "passed": true
+    },
+    {
+      "name": "guide practice selector launches the selected activity",
+      "passed": true
+    },
+    {
+      "name": "Review opens the existing device progress view",
+      "passed": true
+    },
+    {
+      "name": "Share opens public resources, not the CSV exporter",
+      "passed": true
+    },
+    {
+      "name": "copy action uses only the canonical public app link",
+      "passed": true
+    },
+    {
+      "name": "blocked clipboard gives a selected manual-copy URL and readable feedback",
+      "passed": true
+    },
+    {
+      "name": "native sharing, when available, receives no learner or session fields",
+      "passed": true
+    },
+    {
+      "name": "native share cancellation is quiet and failure offers a fallback",
+      "passed": true
+    },
+    {
+      "name": "guide and Share switch to Kannada with local font content",
+      "passed": true
+    },
+    {
+      "name": "new views have zero detected axe violations in English and Kannada",
+      "passed": true
+    },
+    {
+      "name": "320px and 390px new layouts have no horizontal overflow in either language",
+      "passed": true
+    },
+    {
+      "name": "large text plus high contrast works for new mobile routes",
+      "passed": true
+    },
+    {
+      "name": "guide exit returns to the preceding route",
+      "passed": true
+    },
+    {
+      "name": "footer guide entry remembers its previous route",
+      "passed": true
+    },
+    {
+      "name": "guide module and both new views work after an offline reload",
+      "passed": true
+    },
+    {
+      "name": "no persistence or browser exceptions introduced by the journey",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

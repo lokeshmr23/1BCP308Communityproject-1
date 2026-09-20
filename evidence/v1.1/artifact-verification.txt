@@ -1,0 +1,7 @@
+UCI original split: train=3823, test=1797
+3-NN: 1758/1797 correct; accuracy=0.978297
+District: Dakshina Kannada; boundary year=2021; geometry=Polygon
+Bounds: 74.7603, 12.4612, 75.6850, 13.1844
+Content: 30 bilingual cards / 5 categories; Kannada review pending
+Build OK: 19 bundled files; offline cache sahaya-a497d60b99446ed5
+RESULT: 23 artifact hashes verified before and after regeneration

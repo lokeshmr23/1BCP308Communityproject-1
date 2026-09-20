@@ -1,0 +1,50 @@
+
+> sahaya-community-learning@1.1.0 test:browser
+> node tests/browser.mjs && node tests/journey.browser.mjs
+
+PASS: home loads four main activities
+PASS: wrong answer gives retry feedback
+PASS: correct answer unlocks next
+PASS: five-card session completes
+PASS: first-try record excludes retry
+PASS: CSV export works
+PASS: default does not persist logs
+PASS: opt-in progress survives reload
+PASS: larger text and contrast survive reload
+PASS: reset clears records
+PASS: Kannada language switch
+PASS: district map served
+PASS: local model predicts example
+PASS: source finder filter works
+PASS: automated a11y checks have no serious or critical findings
+PASS: mobile has no horizontal overflow
+PASS: offline reload after cache works
+PASS: offline activity grades
+PASS: no browser runtime exceptions
+RESULT: 19 browser checks passed
+PASS: home has six labelled journey buttons and two USE ME entry points
+PASS: USE ME opens the guide without starting or logging practice
+PASS: first guide page offers Begin practice and starts numbers
+PASS: help preserves the current question and enabled Next state
+PASS: keyboard navigation moves between guide steps and focuses the new heading
+PASS: all six guide panels work and have just one active step
+PASS: settings open and close from the guide without losing the step
+PASS: Choose takes the learner to activities and keyboard focus follows
+PASS: home Discover, Learn and Choose all reach their intended content
+PASS: home Practise resumes active practice instead of resetting it
+PASS: guide practice selector launches the selected activity
+PASS: Review opens the existing device progress view
+PASS: Share opens public resources, not the CSV exporter
+PASS: copy action uses only the canonical public app link
+PASS: blocked clipboard gives a selected manual-copy URL and readable feedback
+PASS: native sharing, when available, receives no learner or session fields
+PASS: native share cancellation is quiet and failure offers a fallback
+PASS: guide and Share switch to Kannada with local font content
+PASS: new views have zero detected axe violations in English and Kannada
+PASS: 320px and 390px new layouts have no horizontal overflow in either language
+PASS: large text plus high contrast works for new mobile routes
+PASS: guide exit returns to the preceding route
+PASS: footer guide entry remembers its previous route
+PASS: guide module and both new views work after an offline reload
+PASS: no persistence or browser exceptions introduced by the journey
+RESULT: 25 journey browser checks passed

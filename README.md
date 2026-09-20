@@ -1,12 +1,25 @@
-# Sahaya — GitHub-ready learning project
+# Sahaya v1.1 — USE ME & learning journey
 
 English–Kannada community learning prototype • 1BCP308 • PO5 / PO6 • SDG 4
 
 This upload edition is deliberately **below GitHub’s browser upload file-count limit**. It puts `render.yaml`, `package.json`, and `public/` at the repository root. It includes the functioning app, secondary data, local model, attribution, test/rebuild scripts, 48-page report and latest 25-slide presentation with Dr. Lokesh M R’s author information.
 
+## New in v1.1
+
+- **USE ME** in the header and home hero: short English/Kannada guide, Begin practice, settings, category choice and resume.
+- Six labelled SVG stages: **Discover → Choose → Learn → Practise → Review → Share**. These are useful navigation steps, not a commercial funnel or completion score.
+- A separate public Share page: fixed app URL, copy/native-share fallback and GitHub source/manual/slides links. No learner records enter sharing.
+- Mobile, keyboard, larger-text/contrast and offline support retained.
+- **16 unit tests + 44 Chromium checks passed**, zero detected axe violations on the tested views/languages, and **23** deterministic source/site hashes verified. Details and limitations: [release addendum](docs/JOURNEY_UPDATE.md).
+
+**Public app:** https://sahaya-learning.onrender.com  
+**Repository:** https://github.com/lokeshmr23/1BCP308Communityproject-1
+
+The owner has already deployed the application. **This update has not been pushed or redeployed by this delivery.** Start with [UPDATING.md](UPDATING.md) to update the existing repository and Render site safely.
+
 ## Upload this edition to GitHub
 
-1. Extract **Sahaya-GitHub-Ready.zip** on your computer. GitHub does **not** unpack an uploaded ZIP into a running project.
+1. Extract **Sahaya-v1.1-USE-ME-GitHub-Ready.zip** on your computer. GitHub does **not** unpack an uploaded ZIP into a running project.
 2. Open the extracted folder until you see `render.yaml`, `package.json`, `public/`, `scripts/`, `reports/`, and `presentation/` together.
 3. In your repository, go to the **top-level Code page → Add file → Upload files**. Refresh or cancel any rejected upload first.
 4. Drag **all files and folders inside** the extracted folder onto the upload area. Include `.github` and `.gitignore`. Do not drag the outer folder and do not upload the ZIP itself.
@@ -17,7 +30,7 @@ If a previous upload created duplicate nested directories, do not use them as th
 
 ## Render: recommended deployment
 
-Choose **New → Blueprint**, connect your Git repository, and use the root `render.yaml`.
+For the existing site, keep the current connected repository and deploy its latest commit. If setting up a separate new installation, choose **New → Blueprint** and use the root `render.yaml`.
 
 For a manual **Static Site**:
 
@@ -29,7 +42,7 @@ For a manual **Static Site**:
 | Environment secrets | None |
 | Backend start command | None — this is a static site |
 
-The project does not require Python at Render runtime. Python only rebuilds the bundled secondary-data/model artifacts. No database is required. Check current hosting terms and quotas. Remote deployment has not been performed by this delivery.
+The project does not require Python at Render runtime. Python only rebuilds the bundled secondary-data/model artifacts. No database is required. Check current hosting terms and quotas. This delivery has not redeployed the existing public application.
 
 ## Run locally
 
@@ -56,13 +69,15 @@ For browser automation, install Chromium using `npx playwright install --with-de
 
 ## Report and presentation
 
+These documents are **preserved baseline editions**. They have not been regenerated to depict the new v1.1 UI. Read [the v1.1 addendum](docs/JOURNEY_UPDATE.md) alongside them.
+
 - `reports/Community-Project-Sahaya-Continuation.pdf` — 48-page report.
 - `reports/Community-Project-Sahaya-Continuation.docx` — editable report.
 - `presentation/Sahaya-Classroom-Presentation.pptx` — latest 25 slides, author credits, profile, contacts, acknowledgement and dedication.
 - `presentation/Sahaya-Classroom-Presentation.pdf` — presentation PDF.
 - `presentation/Sahaya-Classroom-Speaker-Notes.md` — notes (also embedded in PowerPoint).
 
-This lightweight upload edition omits the old Git-history bundle, duplicated documentation, report-generation programs, and archived weekly captures/screenshots to keep the file count low. They remain available in the earlier **Sahaya-Complete-Updated-Package.zip**, which is the full archival/reproduction handover. Do not upload that combined archive’s entire extracted contents through the browser in a single batch.
+This lightweight upload edition includes v1.1 logs and screenshots in `evidence/v1.1/`. It omits the old Git-history bundle, duplicated documentation, report-generation programs, and archived baseline weekly captures/screenshots to keep the file count low. They remain available in the earlier **Sahaya-Complete-Updated-Package.zip**, which is the full archival/reproduction handover. Do not upload that combined archive’s entire extracted contents through the browser in a single batch.
 
 ## Classroom and data safeguards
 

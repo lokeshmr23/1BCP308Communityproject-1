@@ -1,0 +1,27 @@
+{
+  "browser": "Chromium 141 / Playwright 1.56.1",
+  "checks": [
+    "home loads four main activities",
+    "wrong answer gives retry feedback",
+    "correct answer unlocks next",
+    "five-card session completes",
+    "first-try record excludes retry",
+    "CSV export works",
+    "default does not persist logs",
+    "opt-in progress survives reload",
+    "larger text and contrast survive reload",
+    "reset clears records",
+    "Kannada language switch",
+    "district map served",
+    "local model predicts example",
+    "source finder filter works",
+    "automated a11y checks have no serious or critical findings",
+    "mobile has no horizontal overflow",
+    "offline reload after cache works",
+    "offline activity grades",
+    "no browser runtime exceptions"
+  ],
+  "errors": [],
+  "status": "PASS",
+  "note": "Automation only. Not school fieldwork or full accessibility certification."
+}

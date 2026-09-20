@@ -2,7 +2,7 @@
   "data/raw/geoboundaries-metadata.json": "5dcd90ed2b4e118636e0c3f24a0b71dfba1672c0adc9c6601a20b55f33dffba9",
   "data/raw/optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
   "data/raw/optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
-  "public/app.js": "515f912dc8d389cf0b14c241fef4574fb4de25e4f1ae29504c289a4402c2d797",
+  "public/app.js": "5898230d24e3c0abc41c02b1c9bdd9b2ad42694268f04b7b6324d17871ca4d65",
   "public/assets/1f34c.svg": "27f2f433eb1084f3728a430bd72c8891819a45396354d89ab496a5afce76e6e4",
   "public/assets/1f34e.svg": "b55a6ab3403f37e8404dab174ed26b5997f48a67df2ac317c442b86916343d3e",
   "public/assets/1f4a7.svg": "9ec35e46c27db799e43a08bd2a3c4353d51a0c037f8bdbbc63684f7fefbb0cc0",
@@ -16,10 +16,9 @@
   "public/data/lessons.json": "771e6fb7fbc39731930c5a11d1dc271fb6567af927b8059b27b1da6126517495",
   "public/data/model-metrics.json": "cf9d0a034ffe3471920d4c6d6bea1d06c101d6696a9bc71de67bdefde05b3e63",
   "public/engine.js": "734ddd611cdf97eaa043a27275e14476ee9c8c8a2276aa2b4199712169e98ebb",
-  "public/index.html": "a0d9e1d0ca279f010ec6315d1493d0680eaaafda957d18e4b831bbf358f816c0",
-  "public/journey.js": "ead9a6fc28d8a961276f0bf6b0007307524ae30b99bd66ffa1769f836c15adaf",
+  "public/index.html": "80c7a3f846f609ec907c08befeb5f417843377b30a0a06fb7e770978f5e9956d",
   "public/manifest.webmanifest": "57eabdfca372e868e9e5a32c001c0d591fb6e5dd78fcdc30549ee33a92fd1d6e",
   "public/models/knn.json": "2c88d509d0c8f8f595a78911baf89084ceabbdfd384e17c6f2072367b3c6b05e",
-  "public/styles.css": "1cfe5956b9853bfcb3b20ff71fb9901ba835462030b339b25c5e708854484ad6",
-  "public/sw.js": "037da33dfe2bdc5fd8490b4c7fd98c3525948406a791206c8006d81c9bf7794c"
+  "public/styles.css": "d558aff6e2574f5bbd8cee4326e525768d53f39de95bf2a8ea17274f61ef792d",
+  "public/sw.js": "0ebeda010c4d8d6cb1c685522a21a3e1fbdfaa484317fdc78c382389980bbab2"
 }

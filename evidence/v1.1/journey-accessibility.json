@@ -1,0 +1,32 @@
+[
+  {
+    "lang": "kn",
+    "route": "learn",
+    "violations": []
+  },
+  {
+    "lang": "kn",
+    "route": "guide",
+    "violations": []
+  },
+  {
+    "lang": "kn",
+    "route": "share",
+    "violations": []
+  },
+  {
+    "lang": "en",
+    "route": "learn",
+    "violations": []
+  },
+  {
+    "lang": "en",
+    "route": "guide",
+    "violations": []
+  },
+  {
+    "lang": "en",
+    "route": "share",
+    "violations": []
+  }
+]

@@ -30,3 +30,7 @@ Map transformation: extract the one named feature, preserve coordinate rings, re
 - [Kaggle](https://www.kaggle.com/datasets?search=kannada)
 
 A finder result is not automatically open-licensed or suitable. Record origin, licence, version, representation, consent constraints and expert review before integration. Do not scrape individual school/learner records.
+
+
+## v1.1 journey interface
+The six journey icons and supporting guide/share SVGs in `public/journey.js` are original local code, covered by the project MIT licence. They do not add an icon CDN, external asset licence, analytics SDK or learner dataset. Bilingual guide copy remains subject to local educator review. Public resource links point to the owner-supplied Render application and verified GitHub repository.

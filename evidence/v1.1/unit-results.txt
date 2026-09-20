@@ -1,0 +1,94 @@
+
+> sahaya-community-learning@1.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: 30 unique bilingual content records with valid answers
+ok 1 - 30 unique bilingual content records with valid answers
+  ---
+  duration_ms: 1.183969
+  ...
+# Subtest: selectCard length and wrap expose the entire digit pack
+ok 2 - selectCard length and wrap expose the entire digit pack
+  ---
+  duration_ms: 0.55627
+  ...
+# Subtest: every answer grades against its content key
+ok 3 - every answer grades against its content key
+  ---
+  duration_ms: 0.249387
+  ...
+# Subtest: empty progress is zero
+ok 4 - empty progress is zero
+  ---
+  duration_ms: 0.222789
+  ...
+# Subtest: progress separates first tries and excludes non-answer records
+ok 5 - progress separates first tries and excludes non-answer records
+  ---
+  duration_ms: 0.201504
+  ...
+# Subtest: CSV header, escaping and no identity column
+ok 6 - CSV header, escaping and no identity column
+  ---
+  duration_ms: 0.239809
+  ...
+# Subtest: browser KNN matches saved scikit-learn predictions for 20 held-out examples
+ok 7 - browser KNN matches saved scikit-learn predictions for 20 held-out examples
+  ---
+  duration_ms: 31.77666
+  ...
+# Subtest: invalid model input rejected
+ok 8 - invalid model input rejected
+  ---
+  duration_ms: 0.370579
+  ...
+# Subtest: map is a single named source feature
+ok 9 - map is a single named source feature
+  ---
+  duration_ms: 0.439738
+  ...
+# Subtest: learning journey has exactly six ordered, unique stages
+ok 10 - learning journey has exactly six ordered, unique stages
+  ---
+  duration_ms: 1.406861
+  ...
+# Subtest: guide content and all interface strings are bilingual
+ok 11 - guide content and all interface strings are bilingual
+  ---
+  duration_ms: 0.360477
+  ...
+# Subtest: unknown guide step falls back safely to Discover
+ok 12 - unknown guide step falls back safely to Discover
+  ---
+  duration_ms: 0.191022
+  ...
+# Subtest: guide exposes one current step with accessible control labels
+ok 13 - guide exposes one current step with accessible control labels
+  ---
+  duration_ms: 1.052753
+  ...
+# Subtest: home journey has labelled buttons, not icon-only controls
+ok 14 - home journey has labelled buttons, not icon-only controls
+  ---
+  duration_ms: 0.163453
+  ...
+# Subtest: share payload is canonical public link only, with no runtime state
+ok 15 - share payload is canonical public link only, with no runtime state
+  ---
+  duration_ms: 0.260259
+  ...
+# Subtest: share page has real public resources and an explicit copy fallback field
+ok 16 - share page has real public resources and an explicit copy fallback field
+  ---
+  duration_ms: 1.057553
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 155.983578
